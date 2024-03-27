@@ -55,6 +55,14 @@ ok  	missing_semester/sharded_maps	4.184s
 
 > You can find the _source code_ of this benchmark test in ``benchmark_test.go`` file.
 
+### Sharded Map structure:
+
+1. A sharded map is composed of multiple ```sync.map```.
+2. Each shard within the sharded map is value of specific key.
+3. To distribute the traffic across the sharded map, I used ***consistent hashing*** to identify
+the next shard we will direct the traffic to.
+4. I used a hash algorithm to hash the key of the key-value to insert, then find which of our shards will handle the operation.
+
 ## How to run the project:
 You can run the project by using this command:
 ```
