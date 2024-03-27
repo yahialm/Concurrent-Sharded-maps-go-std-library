@@ -15,7 +15,7 @@ This project aims to develop an **HTTP API** that mimics the functionality of a 
 
 ## Implementation
 
-***I chose Golang because it's a good opportunity to learn this language, and also I am intersted in the way how this programming language support concurency.***
+***I chose Golang because it's a good opportunity to learn this language, and also I am intersted in the way how this programming language support concurrency.***
 
 ### Golang Sync package : 
 
