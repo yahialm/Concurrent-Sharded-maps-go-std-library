@@ -71,6 +71,8 @@ go run .
 
 **Note**: _the application server runs on port 8080, which can be modified within the main file_.
 
+**There is no external dependency needed for the project since the api is built using the golang http package from the standard library.**
+
 In order to build the project to a single executable file:
 ```
 go run build
