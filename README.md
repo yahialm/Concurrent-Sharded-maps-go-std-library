@@ -75,7 +75,7 @@ go run .
 
 In order to build the project to a single executable file:
 ```
-go run build
+go build
 ```
 
 ## Testing:
